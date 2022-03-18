@@ -14,7 +14,7 @@ class Device:
         self.connected = False
         print("Disconnected.")
 
-class Printer(Device):
+class Printer(Device): # A printer is a type of device
     def __init__(self, name, connected_by, capacity):
         super().__init__(name, connected_by)
         self.capacity = capacity
